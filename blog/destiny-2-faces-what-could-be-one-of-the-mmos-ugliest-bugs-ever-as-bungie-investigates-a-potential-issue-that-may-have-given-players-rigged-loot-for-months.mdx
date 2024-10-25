@@ -1,0 +1,61 @@
+---
+title: "Destiny 2 players were right: Bungie confirms an issue 'in our code' making some god roll guns harder to get, and says it has already identified a potential fix"
+date: "2024-10-25T19:53:21Z"
+lastmod: "2024-10-25T19:53:21Z"
+tags: ['Destiny 2', 'Bungie', 'MMO', 'Loot', 'RNG', 'Bug', 'Perk', 'Weapon']
+draft: false
+summary: "Destiny 2 players have uncovered a potential bug impacting weapon perk drops, leading Bungie to investigate a possible unintended code issue affecting the game's loot system. While the bug is not confirmed, early evidence suggests certain perk combinations are unnaturally rare."
+images: ["https://cdn.mos.cms.futurecdn.net/t62jesXGFYt7zj2k7gVLpW.jpg"]
+layout: PostSimple
+---
+> Destiny 2 players have uncovered a potential bug impacting weapon perk drops, leading Bungie to investigate a possible unintended code issue affecting the game's loot system. While the bug is not confirmed, early evidence suggests certain perk combinations are unnaturally rare.
+
+
+        <img alt="Cover" src="https://cdn.mos.cms.futurecdn.net/t62jesXGFYt7zj2k7gVLpW.jpg"/>
+        
+Update - October 25: Following additional reports, [<u>Bungie has confirmed</u>](https://x.com/Destiny2Team/status/1849888122055897215) what many Destiny 2 players suspected. The studio says an issue "in our code" has made "some random perk combinations harder to earn per legendary weapon perk set. In some cases, desirable perk combinations are a bit easier to earn as well. While we inspected our content and confirmed each perk is weighted equally, an issue in perk pool RNG is the culprit here."
+
+[Bungie](https://www.gamesradar.com/tag/bungie/) has "identified a potential solution to the issue, and we are rapidly working to validate the fix." It's hoping to push this hotfix as soon as possible, but is still working out timing.
+
+The exact cause and scope of this issue remains unclear, nor do we know when it first reared its ugly head, but the fact that players accurately sniffed out compromised RNG after 10 years of almost universally groundless loot conspiracy theories (and one true count of XP bottlenecking) really is something. That said, it sounds like a big blog breakdown is coming.
+
+"For right now, we're focusing on fixing up the issue and getting it out to you," Bungie adds. "After, we'll be sitting down with the team to discuss all the nitty-gritty details."
+
+Original story: 
+
+A few days ago, a relatively small group of frustrated and unlucky Destiny 2 players began to speculate if the weapons dropping in the MMO's newest dungeon, Vesper's Host, [<u>were unfairly weighted against them</u>](https://www.gamesradar.com/games/destiny/denied-their-crafting-fix-destiny-2-players-got-so-unlucky-that-they-started-conspiracy-theories-about-the-mmos-drop-rates-and-got-so-loud-bungie-had-to-correct-them/). That's just how rare the god roll perks seemed to be. Bungie was quick to respond, stamping out familiar conspiracy theories about false RNG and confirming that there is no intentional perk weighting in any area of the game apart from Exotic class item attunement which operates on a different system.
+
+In the days since, the Destiny 2 community's sleuths and statisticians have been hard at work investigating the proposed "Weightgate" theory. As [<u>increasingly holistic and compelling evidence</u>](https://x.com/kneewoah/status/1849141892795261158) has piled up, Bungie's confirmed that it's now investigating a potential *unintentional *problem that could be behind all of this. There is still space for this to be a player misinterpretation born from limited data, but if players are right, and it certainly looks like they might be, this could be a serious loot problem that went unnoticed for months despite affecting multiple areas of the game.
+
+The investigation has now evolved into Bungie working with players to either rule out this potential loot bug, or confirm its cause and effect to find a solution. "We are now investigating a potential issue within our code for how RNG perks are generated," the [<u>Destiny 2 Team Twitter account said on October 24</u>](https://x.com/Destiny2Team/status/1849550490004283811). "Many thanks to all players who have been contributing to data collection across the community. This data has been monumentally helpful with our investigation, and we are currently working on internal simulations to confirm your findings." Analysis from the creator of Destiny 2 loot archive Light.gg also [<u>got a special thank you</u>](https://x.com/Destiny2Team/status/1849584138661265832) from the team.
+
+
+
+Handily, Light.gg now [<u>has a dedicated tool</u>](https://www.light.gg/god-roll/popular/trait-combos), which is "not a tool to aid a witch hunt," to visualize this alleged loot bug. To explain Weightgate as succinctly as possible, players believe that certain weapon perk combinations are inordinately unlikely to drop. This appears to be based on a snag in Destiny 2's weapon API and the way perks are assigned.
+
+To put it less succinctly, this theory is based on the distance between perks in a weapon's perk columns. Every Legendary weapon has multiple potential perks in columns three and four, and these perks are assigned to ordered slots behind the scenes. Weightgate posits that if a gun has six perks in each column and you roll the slot one perk in column three, it's much less likely for column four to roll the slot four perk than slot two because the former is 'further away' from slot one, so to speak. The tricky bit is that this distancing seems to 'wrap around,' which in this example means slot one perks are actually right next to slot six perks and are therefore pretty likely pairings.
+
+To go back to VS Chill Inhibitor, Bait and Switch is a slot two perk in column three. Envious Arsenal is a slot five perk in column four. This gives this roll a perk distance of three, which the Weightgate theory calls unlikely. Some people have gotten this roll to drop, along with the other god rolls under investigation, but it appears to be unusually uncommon according to the data we have.
+
+This theory is probably better explained visually. As Light.gg illustrates, several weapons from recent Destiny 2 releases show a predictable gradient-like relationship between perks. This data is based on the rolls of the guns that players have in their inventory. I've also toggled off crafted weapons, which can guarantee god rolls, to sharpen the data, though that doesn't matter with the new weapons which aren't craftable. Here's how VS Chill Inhibitor looks in that loot tool:
+
+
+
+See what I mean? There are consistent dips in roll pairings that have a perk distance of three, and the most common combinations generally have a distance of one or zero. This rule is not absolute and there are plenty of outliers and exceptions, in part because players are most likely to delete the truly trash rolls from their inventories.
+
+This is mainly what gives me pause – a lot of recent weapons still have more standard perk distributions, and weapons with many more possible perks seem to throw the perceived pattern out entirely. If Weightgate is real, I doubt it will be as all-encompassing as some believe. But this grenade launcher is far from the only gun, and particularly *new* gun, with this pattern, and if you go back to pre-Final Shape content in that same tool, the pattern effectively vanishes. With that in mind, have a look at the new sniper Sovereignty, which has seven perks in each column:
+
+
+
+Notice how rolls with a perk distance of four are rarer than, or comparable to, those with a perk distance of three? Destiny 2 math wiz [<u>MossyMax</u>](https://x.com/mossy_max) makes a good case in a post highlighting Truthteller, which doesn't really have an undisputed god roll and is a good test case with less bias from player tastes, but still shows this gradient pattern. "This is the smoking gun for me," he says. "100k rolls of S24 Truthteller on Light.gg. Not a single good roll to go for, so the pattern shows really clearly. There's no reason that Moving Target + Threat Detector should be 17x more likely than MT + Repulsor Brace."
+
+This is the smoking gun for me. 100k rolls of S24 Truthteller on light .gg. Not a single good roll to go for, so the pattern shows really clearly. There's no reason that Moving Target + Threat Detector should be 17x more likely than MT + Repulsor Brace. https://t.co/MwLw9uUJ8g pic.twitter.com/RCfkvBCgYZ[October 24, 2024](https://twitter.com/mossy_max/status/1849246476041605224)
+
+The reason VS Chill Inhibitor keeps coming up is that it's a non-craftable weapon with a hotly desired god roll that has a high perk distance* and* which is currently being farmed in huge quantities by hardcore players. If Weightgate is accurate and this bug has been present for months, it actually may have weighted drops *in favor* of players in some instances, assuming other god rolls had a low perk distance. This could have acted as a smokescreen. This is only being highlighted now because the potential bug finally pissed off the biggest grinders.
+
+The key takeaway here is that loot was not maliciously or even intentionally rigged, if it is indeed rigged at all. Bungie wouldn't give players the tools and access to discover this if it wanted to hoodwink them, for starters, and frankly the people at the studio do deserve more trust than that. That being said, Destiny 2 is currently in an extremely rough state on a technical level, and we've seen plenty of systemic updates cause inexplicable collateral damage in the past. I don't know how it may have happened, but Destiny 2 spaghetti code has surprised me before.
+
+Weighted loot would be quite a problem for a loot game to have, especially when the latest Destiny 2 Episode has explicitly encouraged players to spend less time crafting god rolls and more time chasing them the old-fashioned way. Bungie has been open about its investigation so far after ruling out *intentional* weighting, and you'd better believe Destiny 2 players will have their eyes glued to the studio's reports in the days and weeks ahead. This could all blow over, or it could make for a whopper of a developer blog post.
+
+[<u><em>Bungie teases Diablo-style "treasure goblins" and "dynamic enemy spawning" for new Destiny 2 missions you can solo in 10 minutes if you don't want the MMO experience</em></u>](https://www.gamesradar.com/games/destiny/bungie-teases-diablo-style-treasure-goblins-and-dynamic-enemy-spawning-for-new-destiny-2-missions-you-can-solo-in-10-minutes-if-you-dont-want-the-mmo-experience/)*.*
+        

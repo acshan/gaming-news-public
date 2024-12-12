@@ -1,0 +1,29 @@
+---
+title: "Baldur's Gate 3 developer says Google's failed game streaming service Stadia backed Larian into a corner where it had to use a 'scary' dev tool"
+date: "2024-12-12T15:59:20Z"
+lastmod: "2024-12-12T15:59:20Z"
+tags: ["Baldur's Gate 3", 'PC', 'RPG', 'Vulkan', 'DirectX 11', 'Google Stadia']
+draft: false
+summary: "Baldur's Gate 3's use of Vulkan and DirectX 11 stems from Google Stadia's Vulkan requirement and Larian's internal toolset limitations, resulting in a less stable Vulkan implementation initially backed up by DirectX 11 for better stability."
+images: ["https://cdn.mos.cms.futurecdn.net/9TP8yZXz95tELo2zguuJzL.jpg"]
+layout: PostSimple
+---
+> Baldur's Gate 3's use of Vulkan and DirectX 11 stems from Google Stadia's Vulkan requirement and Larian's internal toolset limitations, resulting in a less stable Vulkan implementation initially backed up by DirectX 11 for better stability.
+
+
+        <img alt="Cover" src="https://cdn.mos.cms.futurecdn.net/9TP8yZXz95tELo2zguuJzL.jpg"/>
+        
+If you've ever wondered why [<u>Baldur's Gate 3</u>](https://www.gamesradar.com/baldurs-gate-3-guide/) allows you to choose between either Vulkan or DirectX 11, the answer is pretty simple - and it all comes down to none other than the [Google](https://www.gamesradar.com/tag/google/) Stadia, a now-failed cloud streaming service.
+
+Speaking during a recent Graphics [Programming Conference](https://www.youtube.com/watch?v=zuDjcoabX7U&ab_channel=GraphicsProgrammingConference), Larian Studios' senior graphics programmer Wannes Vanderstappen describes why the team opted to use an API like Vulkan on PC when they needed "to support DirectX 12 for Xbox Series anyway." Vanderstappen says there's "a simple answer for that," and it's "Stadia" - the discontinued cloud gaming service from Google that ended up [shutting down](https://www.gamesradar.com/stadia-shutting-down-explained/) last year.
+
+"Baldur's Gate shipped in early access on PC and Google Stadia," explains Vanderstappen. "Google Stadia needed Vulkan, and because we shipped in early access, this also means a shorter release time frame." On the other hand, consoles had the luxury of being prepared for the RPG's full launch rather than its early access journey. That's not the only reason Larian made use of Vulkan, however, according to Vanderstappen.
+
+"Vulkan had a bit wider hardware support than DirectX 12," continues the developer, "so we went for Vulkan as our main API." As for why Larian is still using DirectX 11 then - "things didn't really go according to plan." So, what was the problem? "BG3 was in full production already. The engine code team only moved to BG3 after pre-production happened because we were still working on the Definitive Edition of Original Sin 2."
+
+Vanderstappen goes on: "So the whole company was actively using a DirectX 11 toolset, which means that we couldn't break anything while replacing DirectX 11 with Vulkan." The team attempted to gear things towards Direct X 12, as the dev states, but everything kept going wrong. Larian was in "a vicious cycle where nobody was using the Vulcan toolset, which means it wasn't really stress tested, which means that Vulcan was not stable."
+
+The studio "didn't really find a good time to switch" toolsets, so "in the end," DirectX 11 was released alongside the game as a backup to Vulkan. Shipping the now-beloved RPG with an API like Vulkan was, as Vanderstappen puts it, admittedly "a bit scary" because "it's a bit more prone to crashes than DirectX 11" - hence why the latter tool came and served as a backup to the arguably less stable API, Vulkan.
+
+[<u><em>Baldur's Gate 3 actor behind beloved companion Shadowheart says she's "open" to returning for another RPG - if it doesn't turn the character into "a cartoon version of her"</em></u>](https://www.gamesradar.com/games/baldur-s-gate/baldurs-gate-3-actor-behind-beloved-companion-shadowheart-says-shes-open-to-returning-for-another-rpg-if-it-doesnt-turn-the-character-into-a-cartoon-version-of-her/)
+        

@@ -1,0 +1,27 @@
+---
+title: "Behold, a Super Mario 64 player discovered that a 34-frame loop repeated 2.8 million times over 36 days can make a log drift through a cliff: 'This has no currently known purpose'"
+date: "2025-01-14T22:55:24Z"
+lastmod: "2025-01-14T22:55:24Z"
+tags: ['Super Mario 64', 'Nintendo 64', 'Platformer', 'Speedrunning', 'Tool-Assisted Speedrun', 'Glitch']
+draft: false
+summary: "A Super Mario 64 speedrunner discovered a subtle glitch allowing the Tall, Tall Mountain's rolling log to be moved via floating-point rounding errors, requiring a 36-day, 34-frame loop repetition.  This obscure discovery showcases the game's depth and the dedication of its community."
+images: ["https://cdn.mos.cms.futurecdn.net/kEdiCiEYbmpjDXkw58Fn5V.jpg"]
+layout: PostSimple
+---
+> A Super Mario 64 speedrunner discovered a subtle glitch allowing the Tall, Tall Mountain's rolling log to be moved via floating-point rounding errors, requiring a 36-day, 34-frame loop repetition.  This obscure discovery showcases the game's depth and the dedication of its community.
+
+
+        <img alt="Cover" src="https://cdn.mos.cms.futurecdn.net/kEdiCiEYbmpjDXkw58Fn5V.jpg"/>
+        
+Few games have been broken down and analyzed the way Super Mario 64 has, but I'm having a difficult time thinking of a more delightfully obscure piece of trivia than this: the game's rolling log can be pushed out of its starting position because of floating point rounding errors.
+
+There's a big rolling log on Super Mario 64's Tall, Tall Mountain course that, normally, you just move slightly from side to side in order to reach the highest parts of the level. But modder and tool-assisted speedrun creator Sjmhrp discovered a very strange behavior from this log in 2024, which was more recently brought to the Mario fandom's attention by venerable trivia aggregator Supper Mario Broth on [Bluesky](https://bsky.app/profile/mariobrothblog.bsky.social/post/3lfnemj2mnc2c).
+
+"The rolling log in TTM can be made to drift through floating point rounding errors," Sjmhrp explains in the description of the [YouTube video](https://www.youtube.com/watch?v=oAT2wGfnUho) above. "This is because the float spacing of the log's speed is finer than the spacing of its position, so by manipulating its speed it can slowly drift to the side, at about 2μm/s."
+
+How do you do this? By repeating a 34-frame loop of inputs over and over again - which, realistically, is only going to happen in a tool-assisted speedrun, or TAS. To reach the outer limits of the log's potential positions, you'd need to repeat that loop 2.8 million times over 36 days. "I didn't bother to make an entire month long TAS," Sjmhrp explains, "I just did a few cycles then used lua to hack mario to the right position each frame after."
+
+"This has no currently known purpose," as Supper Mario Broth notes, which is a *very* funny thing to say about anything that would take 36 days to do. But hey, given never-ending [endeavors like the A button challenge in the Super Mario 64 community](https://www.gamesradar.com/games/platformer/for-the-first-time-in-28-years-super-mario-64-has-been-beaten-without-using-the-a-button-and-it-only-took-86-hours/), you never know - maybe someday they'll figure out how to use this strat to break the whole game wide open. Until then, well, we can all just admire the dedication to learning everything this game has to offer.
+
+[<em>Super Mario 64 speedrunning is "dead" after one runner claims all 5 major categories in what's being dubbed "the greatest speedrunning achievement of all time."</em>](https://www.gamesradar.com/games/super-mario/super-mario-64-speedrunning-is-dead-after-one-runner-claims-all-5-major-categories-in-whats-being-dubbed-the-greatest-speedrunning-achievement-of-all-time/)
+        
